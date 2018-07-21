@@ -29,7 +29,7 @@ else
     print "Not found";
 }
 $change='href="/';
-$add = 'href="https://timesofindia.indiatimes.com/';
+$add = 'href="https://timesofindia.indiatimes.com/';	//Add any othernews website forum
 $new_link = str_replace($change, $add, $pema);
 print_r($new_link);
 
